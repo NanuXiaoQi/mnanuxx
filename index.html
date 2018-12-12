@@ -4,7 +4,11 @@
 		<meta charset="utf-8">
 		<title>mobile</title>
 		<script>
-			window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? " " :  "https://www.nanuxx.xyz/";
+			if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){ 
+window.location.href = “https://www.nanuxx.xyz/“; 
+} else { 
+window.location.href = “http://m.nanuxx.xyz/“; 
+}
 		</script>
 	</head>
 	<body>
