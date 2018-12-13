@@ -13,10 +13,10 @@ a:hover {
 	width: 100%;
 	height: 70px;
 	display: flex;
-	padding: 8px;
 	flex-direction: row;
-	align-items: flex-start;
+	align-items: center;
 	background-color: #393D49;
 	justify-content: flex-start;
 	color: #fff;
+	padding-left: 10px;
 }
