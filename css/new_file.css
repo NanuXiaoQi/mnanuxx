@@ -1,0 +1,47 @@
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#sidebar {
+    width: 35px;
+    background-color: #e1e1e1;
+    padding-top: 200px;
+    position: fixed;/*可以使sidebar脱离文档流，使min-height:100%成为一个全屏高度*/
+    min-height: 100%;
+    z-index: 100;
+}
+
+.item {
+    font-size: 12px;
+    font-family: 'Andale Mono'
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#closeBar{
+    position: absolute;
+    bottom: 30px;
+    width: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-content{
+             width: 200px;
+             position: fixed;
+             min-height: 100%;
+             background: #e1e1e1;
+             border: 1px solid black;
+             z-index: 99;
+             opacity: 0;
+}
+
+.nav-con-close{
+             position: absolute;
+             top: 5px;
+             right: 5px;
+             cursor: pointer;
+/*             z-index: 99;*/
+}
