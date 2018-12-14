@@ -1,8 +1,23 @@
 * {
 	font-family: "microsoft yahei";
 	font-size: 20px;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #F0F0F0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
 	width: 100%;
 }
+
 a {
 	text-decoration: none
 }
@@ -10,20 +25,33 @@ a {
 a:hover {
 	text-decoration: underline
 }
+
+.footer {
+	width: 100%;
+	height: 120px;
+	margin-top: 10px;
+	background-color: #F0F0F0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .header {
 	width: 100%;
-	height: 80px;
+	height: 10%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	background-color: #393D49;
 	justify-content: flex-start;
 	color: #fff;
+	margin-bottom: 15px;
 }
-.read{
-	width: 95%;
+
+.read {
+	width: 94%;
 	height: 300px;
 	background-color: #FFFFFF;
-	margin: 10px 2.5%;
+	margin-bottom: 15px;
 	border-radius: 8px;
 }
