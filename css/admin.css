@@ -45,6 +45,7 @@ a:hover {
 	background-color: #393D49;
 	justify-content: flex-start;
 	align-items: center;
+	align-content: center;
 	color: #fff;
 	margin-bottom: 15px;
 }
