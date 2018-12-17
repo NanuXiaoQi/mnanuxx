@@ -1,6 +1,5 @@
 * {
 	font-family: "microsoft yahei";
-	font-size: 20px;
 }
 
 html {
@@ -19,11 +18,94 @@ body {
 }
 
 a {
-	text-decoration: none
+	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline
+	text-decoration: none;
+}
+
+.logo-a {
+	width: 60%;
+	height: 90%;
+	margin-left: 8px;
+}
+
+.logo-a img {
+	width: 100%;
+	height: 90%;
+	margin-left: 8px;
+}
+
+.menu {
+	display: flex;
+	position: absolute;
+	right: 20px;
+	width: 13%;
+	height: 10%;
+	font-size: 40px;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 101;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 100px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 12px;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 100;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=88);
 }
 
 .footer {
@@ -57,4 +139,5 @@ a:hover {
 	background-color: #FFFFFF;
 	margin-bottom: 15px;
 	border-radius: 8px;
+	box-shadow: 3px 3px 3px #e5e5e5;
 }
