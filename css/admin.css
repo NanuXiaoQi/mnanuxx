@@ -9,12 +9,25 @@ html {
 
 body {
 	margin: 0;
-	background-color: #F0F0F0;
+	background-color: #f2f2f2;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	height: 100%;
 	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #333333;
+	justify-content: flex-start;
+	align-content: center;
+	color: #fff;
+	margin-bottom: 15px;
 }
 
 a {
@@ -29,25 +42,23 @@ a:hover {
 	width: 60%;
 	height: 90%;
 	margin-left: 8px;
+	display: flex;
+	align-items: center;
 }
 
 .logo-a img {
-	width: 100%;
-	height: 90%;
-	margin-left: 8px;
+	height: 95%;
 }
 
 .menu {
 	display: flex;
 	position: absolute;
 	right: 20px;
-	width: 13%;
-	height: 10%;
+	width: 12%;
 	font-size: 40px;
 	color: #fff;
 	align-items: center;
 	justify-content: center;
-	margin-top: 0.5%;
 }
 
 .sidenav {
@@ -79,7 +90,7 @@ a:hover {
 
 .sidenav .closebtn {
 	position: absolute;
-	top: 12px;
+	top: 15px;
 	right: 25px;
 	font-size: 36px;
 	margin-left: 50px;
@@ -113,25 +124,11 @@ a:hover {
 	width: 100%;
 	height: 120px;
 	margin-top: 10px;
-	background-color: #F0F0F0;
+	background-color: #333333;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.header {
-	width: 100%;
-	height: 10%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	background-color: #393D49;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: center;
-	position: center;
-	color: #fff;
-	margin-bottom: 15px;
+	color: #fafafa;
 }
 
 .read {
@@ -140,5 +137,6 @@ a:hover {
 	background-color: #FFFFFF;
 	margin-bottom: 15px;
 	border-radius: 8px;
-	box-shadow: 3px 3px 3px #e5e5e5;
+	box-shadow: 3px 3px 1px #f3f3f3;
+	border: 1px solid #f3f3f3;
 }
